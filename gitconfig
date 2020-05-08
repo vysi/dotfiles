@@ -48,4 +48,11 @@
   mergeoptions = --no-edit
 [user]
 	email = weysi.akin1@gmail.com
-	name = Veysi akin
+	name = Veysiakin
+[gui]
+	recentrepo = /Users/ways/git-101
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
