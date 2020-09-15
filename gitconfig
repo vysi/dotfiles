@@ -48,7 +48,7 @@
   mergeoptions = --no-edit
 [user]
 	email = weysi.akin1@gmail.com
-	name = Veysiakin
+	name = veysiakin
 [gui]
 	recentrepo = /Users/ways/git-101
 [filter "lfs"]
