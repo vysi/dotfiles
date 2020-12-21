@@ -8,6 +8,7 @@ plugins=(git gitfast last-working-dir common-aliases sublime zsh-syntax-highligh
 
 # (macOS-only) Prevent Homebrew from reporting - https://github.com/Homebrew/brew/blob/master/docs/Analytics.md
 export HOMEBREW_NO_ANALYTICS=1
+ZSH_DISABLE_COMPFIX=true
 
 # Actually load Oh-My-Zsh
 source "${ZSH}/oh-my-zsh.sh"
