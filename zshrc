@@ -40,8 +40,3 @@ pyenv activate lewagon 2>/dev/null && echo "🐍 Loading 'lewagon' virtualenv"
 # Encoding stuff for the terminal
 export LANG=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
-
-export PATH="/usr/local/opt/bzip2/bin:$PATH"
-export CPPFLAGS="-I$(brew --prefix zlib)/include -I$(brew --prefix bzip2)/include $CPPFLAGS"
-export CFLAGS="-I$(brew --prefix openssl)/include -I$(brew --prefix zlib)/include -I$(brew --prefix bzip2)/include -I$(brew --prefix readline)/include -I$(xcrun --show-sdk-path)/usr/include"
-export LDFLAGS="-L$(brew --prefix openssl)/lib -L$(brew --prefix readline)/lib -L$(brew --prefix zlib)/lib -L$(brew --prefix bzip2)/lib"
